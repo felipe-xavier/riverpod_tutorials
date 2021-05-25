@@ -39,19 +39,19 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            RaisedButton(
+            ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, changeNotifierRoute);
               },
               child: Text('Change Notifier'),
             ),
-            RaisedButton(
+            ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, stateNotifierRoute);
               },
               child: Text('State Notifier'),
             ),
-            RaisedButton(
+            ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, stateProviderRoute);
               },
